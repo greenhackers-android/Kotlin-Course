@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2020 Yannaing Lynn
+ * All right reserved
+ */
+
+package dayfive
+
 fun main() {
     println(Rectangle().getArea())
 }
@@ -7,7 +14,7 @@ open class Square{
     open fun getArea() = width*height
 }
 
-class Rectangle:Square(){
+class Rectangle: Square(){
     override val height = 5.0f
     override fun getArea() = super.width*this.height
 }

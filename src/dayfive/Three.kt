@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2020 Yannaing Lynn
+ * All right reserved
+ */
+
+package dayfive
+
 fun main() {
     val u = User()
     u.getMoney()
@@ -12,6 +19,6 @@ abstract class Banking{
         println("$accountNo has $money MMk")
     }
 }
-class User:Banking(){
+class User: Banking(){
 
 }

@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2020 Yannaing Lynn
+ * All right reserved
+ */
+
+package dayfive
+
 fun main() {
     val t = Tiger()
     println(t.name)
@@ -16,8 +23,8 @@ interface Walkable{
         println("Iam from walkable")
     }
 }
-class Tiger:Mammal,Walkable{
-    override var name = "Tiger"
+class Tiger: Mammal, Walkable {
+    override var name = "dayfive.Tiger"
     override var color = "Yellow"
     override fun walk() {
         super<Walkable>.walk()
