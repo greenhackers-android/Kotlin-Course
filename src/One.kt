@@ -1,8 +1,18 @@
 fun main() {
-    print("git test")
+    /*val r = Rabbit()
+    r.name
+    val c = Cat()
+    c.name
+    val a = Animal()*/
 }
-
-class Hey{
+//OOP(Object Oriented Features
+//Inheritance
+/*open class Animal{
+    var name:String = ""
+}
+class Rabbit:Animal(){
 
 }
+class Cat:Animal(){
 
+}*/
