@@ -20,7 +20,7 @@ fun main() {
         Color.GREEN-> println("The color rgb value is${Color.GREEN.rgb}")
         Color.BLUE-> println("The color rgb value is${Color.BLUE.rgb}")
     }
-    
+
 }
 enum class Speed{
     FAST,SLOW,MIDDLE

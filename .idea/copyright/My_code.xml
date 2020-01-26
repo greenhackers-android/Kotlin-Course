@@ -1,6 +1,6 @@
 <component name="CopyrightManager">
   <copyright>
-    <option name="notice" value="Copyright © &amp;#36;today.year Yannaing Lynn&#10;All right reserved" />
+    <option name="notice" value="Copyright © &amp;#36;today.year&#10;&amp;#36;today.month . &amp;#36;today.day . &amp;#36;today.hour &#10;Yannaing Lynn&#10;All right reserved" />
     <option name="myName" value="My_code" />
   </copyright>
 </component>
