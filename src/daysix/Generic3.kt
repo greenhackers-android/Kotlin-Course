@@ -22,14 +22,6 @@ fun main() {
     })
 }
 
-
-
-
-
-
-
-
-
 interface Greet{
     fun greet()
 }
