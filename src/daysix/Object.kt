@@ -6,14 +6,12 @@
  */
 
 package daysix
-
 object Hello:Hey(),Z{
     fun hello(){
         println("Hello")
     }
     override val name= "Mg Mg"
 }
-
 fun main() {
     Hello.name
     Hello.hello()
@@ -23,8 +21,6 @@ fun main() {
 interface Z{
     val name:String
 }
-
-
 open class Hey{
     val h = "Hey"
 }
